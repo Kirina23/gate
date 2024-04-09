@@ -1,0 +1,24 @@
+<?xml version="1.0"  encoding="windows-1251" standalone="no" ?>
+<Root>
+  <Sign>MirajDictionary</Sign>
+  <Version>1.0</Version>
+  <General>
+    <Typ>5</Typ>
+    <Name>Роли пользователей</Name>
+  </General>
+  <Template>
+    <Param id="0" text="Диспетчер" />
+    <Param id="1" text="Администратор" />
+    <Param id="2" text="Помощник диспетчера" />
+    <Param id="3" text="Помощник администратора" />
+    <Param id="4" text="Наблюдатель" />
+    <Param id="5" text="Особый" />
+    <Param id="6" text="Клиенты ЛК/Stemax mobile" />
+    <Param id="7" text="ЛК (постановка/снятие)" />
+    <Param id="8" text="Дежурный офицер" />
+    <Param id="9" text="Оператор инкассации" />
+    <Param id="10" text="Инкассатор" />
+    <Param id="11" text="ГБР" />
+    <Param id="12" text="Старший администратор" />
+  </Template>
+</Root>

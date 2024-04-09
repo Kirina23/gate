@@ -1,0 +1,28 @@
+<?xml version="1.0"  encoding="windows-1251" standalone="no" ?>
+<Root>
+  <Sign>MirajDictionary</Sign>
+  <Version>1.1</Version>
+  <General>
+    <Typ>3</Typ>
+    <Name>Источники событий</Name>
+  </General>
+  <Template>
+    <Param id="0"  text="Система" />
+    <Param id="1"  text="GPRS 1" />
+    <Param id="2"  text="GPRS 2" />
+    <Param id="3"  text="GSM данные" />
+    <Param id="4"  text="GSM SMS" />
+    <Param id="5"  text="Внешний сервер" />
+    <Param id="6"  text="Шина RS485" />
+    <Param id="7"  text="Contact ID" />
+    <Param id="8"  text="Ethernet" />
+    <Param id="9"  text="SMS 1" />
+    <Param id="10" text="SMS 2" />
+    <Param id="11" text="DATA 1" />
+    <Param id="12" text="DATA 2" />
+    <Param id="13"  text="Call ID" />
+    <Param id="14"  text="SMPP" />
+    <Param id="15"  text="E-mail" />
+    <Param id="16"  text="WiFi" />
+  </Template>
+</Root>

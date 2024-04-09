@@ -1,0 +1,50 @@
+<?xml version="1.0"  encoding="windows-1251" standalone="no" ?>
+<Root>
+    <Sign>MirajAdapter</Sign>
+    <Version>1.0</Version>
+    <General>
+        <Typ>7</Typ>
+        <Name>Внешний сервер ПЦН</Name>
+    </General>
+    <Template>
+        <list name="" Type="PL">
+            <listitem Type="C" Name="Category1">
+                <var name="Description">Настройки соединения</var>
+            </listitem>
+            <!--listitem Type="L" Name="Version">
+                <var name="Description">Версия внешнего ПЦН</var>
+                <var name="ListType">S</var>
+                <var name="Items">4.8</var>
+                <var name="Default">4.8</var>
+            </listitem-->
+            <listitem Type="S" Name="ServerHost">
+                <var name="Description">Адрес сервера</var>
+                <var name="Default"></var>
+            </listitem>
+            <listitem Type="I" Name="ServerPort">
+                <var name="Description">Порт сервера</var>
+                <var name="Default">5000</var>
+            </listitem>
+            <listitem Type="S" Name="ExServerLogin">
+                <var name="Description">Имя суперпользователя</var>
+                <var name="Default"></var>
+            </listitem>
+            <listitem Type="S" Name="ExServerPassword">
+                <var name="Description">Пароль</var>
+                <var name="Default"></var>
+            </listitem>
+            <listitem Type="C" Name="Category2">
+                <var name="Description">Объекты и устройства</var>
+            </listitem>
+            <listitem Type="B" Name="SyncObjects">
+                <var name="Description">Копировать с внешнего сервера ПЦН</var>
+                <var name="Default">0</var>
+            </listitem>
+            <!--listitem Type="B" Name="SyncDevices">
+                <var name="Description">Синхронизировать устройства</var>
+                <var name="Default">0</var>
+            </listitem-->
+        </list>
+    </Template>
+</Root>
+        

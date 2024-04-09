@@ -1,0 +1,27 @@
+<?xml version="1.0"  encoding="windows-1251" standalone="no" ?>
+<Root>
+  <Sign>MirajDictionary</Sign>
+  <Version>1.0</Version>
+  <General>
+    <Typ>9</Typ>
+    <Name>Типы команд управления устройствами</Name>
+  </General>
+  <Template>
+    <Param id="0"  text="Не определена" />
+    <Param id="1"  text="Обработать" />
+    <Param id="2"  text="Включение" />
+    <Param id="3"  text="Выключение" />
+    <Param id="4"  text="Обновить" />
+    <Param id="5"  text="Перевзять" />
+    <Param id="6"  text="Сброс пожарных тревог и неисправностей" />
+    <Param id="7"  text="Сброс тревог" />
+    <Param id="8"  text="Заблокировать постановку" />
+    <Param id="9"  text="Разблокировать постановку" />
+    <Param id="10"  text="Запрос реагирования" />
+    <Param id="11"  text="Закончен поиск удалённого ключа" />
+    <Param id="12"  text="Снятие с охраны" />
+    <Param id="13"  text="Постановка на охрану" />
+    <Param id="14"  text="Тест КТС" />
+    <Param id="15"  text="Отмена реагирования" />
+  </Template>
+</Root>

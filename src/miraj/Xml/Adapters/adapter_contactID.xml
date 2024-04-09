@@ -1,0 +1,105 @@
+<?xml version="1.0"  encoding="windows-1251" standalone="no" ?>
+<Root>
+  <Sign>MirajAdapter</Sign>
+  <Version>1.0</Version>
+  <General>
+    <Typ>5</Typ>
+    <Name>Contact ID приёмник</Name>
+  </General>
+  <Template>
+    <list name="" Type="PL">
+      <listitem Type="C" Name="Category1">
+        <var name="Description">Настройки порта</var>
+      </listitem>
+      <listitem Type="L" Name="Transport">
+        <var name="Description">Транспорт</var>
+        <var name="ListType">V</var>
+        <var name="Items">RS-232;TCP/IP</var>
+        <var name="ItemValues">0;1</var>
+        <var name="Default">0</var>
+      </listitem>
+      <!-- TCP/IP -->
+      <listitem Type="I" Name="ServerPort">
+        <var name="Description">Порт</var>
+        <var name="Default">8000</var>
+      </listitem>
+      <listitem Type="S" Name="Interface">
+        <var name="Description">IP-адрес интерфейса (не обязателен)</var>
+        <var name="Default"></var>
+      </listitem>
+      <!-- RS-232 -->
+      <listitem Type="L" Name="Port">
+        <var name="Description">Порт</var>
+        <var name="ListType">S</var>
+        <var name="Items">COM1;COM2;COM3;COM4;COM5;COM6;COM7;COM8;COM9;COM10;COM11;COM12;COM13;COM14;COM15;COM16;COM17;COM18;COM19;COM20;COM21;COM22;COM23;COM24;COM25;COM26;COM27;COM28;COM29;COM30;COM31;COM32;COM33;COM34;COM35;COM36;COM37;COM38;COM39;COM40;COM41;COM42;COM43;COM44;COM45;COM46;COM47;COM48;COM49;COM50;COM51;COM52;COM53;COM54;COM55;COM56;COM57;COM58;COM59;COM60;COM61;COM62;COM63;COM64</var>
+        <var name="Default">COM1</var>
+      </listitem>
+      <listitem Type="L" Name="Speed">
+        <var name="Description">Скорость</var>
+        <var name="ListType">S</var>
+        <var name="Items">300;600;1200;1800;2400;4800;9600;19200;33600;57600;115200</var>
+        <var name="Default">9600</var>
+      </listitem>
+      <listitem Type="L" Name="DataBits">
+        <var name="Description">Биты данных</var>
+        <var name="ListType">V</var>
+        <var name="Items">5;6;7;8</var>
+        <var name="ItemValues">5;6;7;8</var>
+        <var name="Default">8</var>
+      </listitem>
+      <listitem Type="L" Name="Parity">
+        <var name="Description">Четность</var>
+        <var name="ListType">V</var>
+        <var name="Items">Нет;Нечёт;Чёт;Всегда '1';Всегда '0'</var>
+        <var name="ItemValues">0;1;2;3;4</var>
+        <var name="Default">0</var>
+      </listitem>
+      <listitem Type="L" Name="StopBits">
+        <var name="Description">Стоповые биты</var>
+        <var name="ListType">V</var>
+        <var name="Items">1;1.5;2</var>
+        <var name="ItemValues">0;1;2</var>
+        <var name="Default">0</var>
+      </listitem>
+      <!--  -->
+      <listitem Type="B" Name="Log">
+        <var name="Description">Запись логов</var>
+        <var name="Default">0</var>
+      </listitem>
+      <listitem Type="C" Name="Category2">
+        <var name="Description">Contact ID</var>
+      </listitem>
+      <listitem Type="L" Name="CidProtocol">
+        <var name="Description">Тип протокола</var>
+        <var name="ListType">V</var>
+        <var name="Items">DSC Sur-gard;Альтоника-RS202BS</var>
+        <var name="ItemValues">0;1</var>
+        <var name="Default">0</var>
+      </listitem>
+      <listitem Type="S" Name="CidEventTable">
+        <var name="Description">Имя таблицы событий</var>
+        <var name="Default">По умолчанию</var>
+      </listitem>
+      <listitem Type="S" Name="DeviceMap">
+        <var name="Description">Карта перекрытия номеров(1=2;2=3)</var>
+        <var name="Default"></var>
+      </listitem>
+      <listitem Type="S" Name="CidOffset">
+        <var name="Description">Общее смещение номеров</var>
+        <var name="Default">0</var>
+      </listitem>
+      <listitem Type="B" Name="CidShowAll">
+        <var name="Description">Вывод нетранскодированных событий</var>
+        <var name="Default">1</var>
+      </listitem>
+      <listitem Type="B" Name="CidShowNE">
+        <var name="Description">Вывод событий, если нет объекта</var>
+        <var name="Default">1</var>
+      </listitem>
+      <listitem Type="S" Name="CidCtrl">
+        <var name="Description">Период контроля, мин.(0-не контрол.)</var>
+        <var name="Default">1</var>
+      </listitem>
+    </list>
+  </Template>
+</Root>

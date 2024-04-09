@@ -1,0 +1,90 @@
+version: "3"
+
+services:
+  gateway:
+    # image: cr.yandex/crpvmu6t1sbqt5cor7n1/ity-mqtt-gateway:1.0.2
+    build: .
+    restart: always
+    container_name: "gateway"
+    command: "npm run start:dev"
+    volumes:
+      # - ./config.json:/usr/src/app/config.json
+      - .:/usr/src/app/
+    environment:
+      - TZ=Asia/Almaty
+    ports:
+      - 3020:3020/udp
+    logging:
+      options:
+        max-size: "100m"
+        max-file: "3"
+
+  emqx:
+    image: "emqx/emqx:4.3.22"
+    container_name: "emqx"
+    restart: always
+    ports:
+      - "4369-4370:4369-4370"
+      - "5369-5370:5369-5370"
+      - "6369-6370:6369-6370"
+      - "18083:18083"
+      - "18080:8080"
+      - "1883:1883"
+      - "8883:8883"
+      - "18081:8081"
+      - "8083:8083"
+    hostname: "emqx"
+    # environment:
+    #   - EMQX_NAME=asbrok
+    #   - EMQX_HOST=broker0.asbrok.kz
+    #   - EMQX_LOADED_PLUGINS=emqx_recon,emqx_retainer,emqx_management,emqx_dashboard,emqx_auth_redis
+    #   - EMQX_AUTH__REDIS__SERVER=redis:6379
+    #   - EMQX_AUTH__REDIS__PASSWORD=Wb8HAFafizFKnE71T3XqTOBSjHs65M
+    #   - EMQX_AUTH__REDIS__PASSWORD_HASH=sha256
+    #   - EMQX_AUTH__REDIS__DATABASE=0
+    #   - EMQX_RETAINER__STORAGE_TYPE=disc
+    #   - EMQX_ALLOW__ANONYMOUS=false
+    #   - EMQX_NODE__COOKIE=AP7ElypNK2YGiIXfycZg0hjj
+    #   - EMQX_MQTT__MAX_PACKET_SIZE=50MB
+    #   - EMQX_LISTENER__SSL__EXTERNAL__KEYFILE=/opt/emqx/ssl/privkey.pem
+    #   - EMQX_LISTENER__SSL__EXTERNAL__CERTFILE=/opt/emqx/ssl/fullchain.pem
+    #   - EMQX_LISTENER__SSL__EXTERNAL__CACERTFILE=/opt/emqx/ssl/chain.pem
+    #   - EMQX_CLUSTER__AUTOCLEAN=0
+    #   - EMQX_CLUSTER__DISCOVERY=static
+    #   - EMQX_CLUSTER__STATIC__SEEDS=asbrok@broker0.asbrok.kz,asbrok@broker1.asbrok.kz
+    #   - EMQX_ZONE__EXTERNAL__MAX_INFLIGHT=512
+    #   - EMQX_ZONE__EXTERNAL__MAX_MQUEUE_LEN=1000000
+    #   - EMQX_ZONE__INTERNAL__MAX_INFLIGHT=512
+    #   - EMQX_ZONE__INTERNAL__MAX_MQUEUE_LEN=1000000
+    # volumes:
+    #   - ./emqx/data:/opt/emqx/data
+    #   - ./emqx/etc:/opt/emqx/etc
+    #   - ./emqx/log:/opt/emqx/log
+    #   - ./emqx/ssl:/opt/emqx/ssl
+
+  redis-gateway:
+    image: redis:alpine
+    command: ["redis-server"]
+    hostname: redis-gateway
+    restart: always
+    container_name: "redis-gateway"
+    environment:
+      - TZ=Asia/Almaty
+    # ports:
+    #   - "6379:6379"
+    volumes:
+      - ./redis:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 1s
+      timeout: 3s
+      retries: 30
+
+  firebird:
+    image: "jacobalberty/firebird:2.5-ss"
+    container_name: "firebird"
+    restart: always
+    ports:
+      - "3050:3050"
+    volumes:
+      - ./firebird/:/c/database/

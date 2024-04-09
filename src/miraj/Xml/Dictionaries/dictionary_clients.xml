@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="windows-1251" standalone="no" ?>
+<Root>
+  <Sign>MirajDictionary</Sign>
+  <Version>1.3</Version>
+  <General>
+    <Typ>6</Typ>
+    <Name>Клиенты системы</Name>
+  </General>
+  <Template>
+    <Param id="-1" text="Не авторизован" />
+    <Param id="0"  text="Администратор" />
+    <Param id="1"  text="Монитор" />
+    <Param id="2"  text="Диспетчер серверов" />
+    <Param id="3"  text="Внешний ПЦН" />
+    <Param id="4"  text="Сервисный монитор" />
+    <Param id="5"  text="Информатор" />
+    <Param id="6"  text="Клиент" />
+    <Param id="7"  text="Клиент ContactID" />
+    <Param id="8"  text="Шлюз Стрелец" />
+    <Param id="9"  text="Конфигуратор" />
+    <Param id="10"  text="Администратор Центральный" />
+    <Param id="11"  text="ПЦН" />
+    <Param id="12"  text="Модуль отчетов" />
+    <Param id="13"  text="Stemax ГБР" />
+    <Param id="14"  text="Личный кабинет" />
+    <Param id="15"  text="Stemax Mobile" />
+    <Param id="16"  text="Колл-центр" />
+    <Param id="17"  text="Stemax Alarm" />
+    <Param id="18"  text="Модуль заявок инкассаций" />
+    <Param id="19"  text="Инкассатор" />
+    <Param id="20"  text="Push сервис" />
+    <Param id="21"  text="Утилита тестирования" />
+    <Param id="22"  text="Stemax TechCentre" />
+  </Template>
+</Root>

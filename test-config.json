@@ -1,0 +1,38 @@
+{
+    "NAMESPACE": "Test",
+    "SYSTEM": "Proton",
+    "GATEWAY_ID": "99",
+    "REGION": "ALA",
+    "MQTT_USERNAME": "",
+    "MQTT_PASSWORD": "",
+    "MQTT_SERVERS": [{
+        "host": "broker0.asbrok.kz",
+        "port": 1883,
+        "protocol": "mqtt"
+    }],
+    "REDIS_HOST": "redis",
+    "REDIS_PORT": 6379,
+    "CONNECTION_PORT": 3334,
+    "CONNECTION_HOST": "{{СЮДА НУЖНО ВПИСАТЬ ПУБЛИЧНЫЙ IP-АДРЕС СЕРВЕРА}}",
+    "RECONNECT_PERIOD": 5000,
+    "REQUEST_TIMEOUT": 45000,
+    "REQUEST_RETRY": 1000,
+    "REQUEST_ATTEMPTS": 3,
+    "SYSTEM_NUMBER": 1,
+    "DEFAULT_INTERVAL_MS": 120000,
+    "time": 1620283609701,
+    "COM_PORT": "/dev/ttyS0",
+    "MQTT_HOST": "mqtt://broker.asbrok.kz",
+    "COM_REQUEST_INTERVAL_MS": 2000,
+    "QOS": 1,
+    "GATEWAY_STATUS_PERIOD": 60000,
+    "DEBUG": false,
+    "RELAY_LIST": [
+        0,
+        1,
+        2
+    ],
+    "PEAK_IGNORE_TEST": true,
+    "END_PEAK_TIME_SEC": 33000,
+    "START_PEAK_TIME_SEC": 27000
+}

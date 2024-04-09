@@ -1,0 +1,13 @@
+<?xml version="1.0"  encoding="windows-1251" standalone="no" ?>
+<Root>
+    <Sign>MirajDevice</Sign>
+    <Version>1.0</Version>
+    <General>
+        <Typ>66638</Typ>
+        <Name>STEMAX FX410</Name>
+    </General>
+    <Template>
+        <list name="" Type="PL">
+        </list>
+    </Template>
+</Root>

@@ -1,0 +1,18 @@
+<?xml version="1.0"  encoding="windows-1251" standalone="no" ?>
+<Root>
+    <Sign>MirajDictionary</Sign>
+    <Version>1.0</Version>
+    <General>
+        <Typ>12</Typ>
+        <Name>Типы расписаний</Name>
+    </General>
+    <Template>
+        <Param id="0"  text="Рабочие дни" />
+        <Param id="1"  text="Выходные" />
+        <Param id="2"  text="Праздничные дни" />
+        <Param id="3"  text="Дни недели" />
+        <Param id="4"  text="День месяца" />
+        <Param id="5"  text="День/месяц года" />
+    </Template>
+</Root>
+

@@ -1,0 +1,209 @@
+<?xml version="1.0"  encoding="windows-1251" standalone="no" ?>
+<Root>
+  <Sign>MirajDictionary</Sign>
+  <Version>1.1</Version>
+  <General>
+    <Typ>4</Typ>
+    <Name>События системы</Name>
+  </General>
+  <Template>
+    <!-- Системные события -->
+    <Param id="1" text="Системное" priority="100">
+      <Param id="0" text="Информация" priority="0" />
+      <Param id="1" text="Ошибка" priority="1" />
+      <Param id="2" text="Потеря соединения с сервером" priority="1" />
+      <Param id="3" text="Установлено соединение с сервером" priority="0" />
+    </Param>
+    <!-- События объектов -->
+    <Param id="2" text="Объекты" priority="200" >
+      <!-- Используется -->
+      <Param id="0" text="Добавление объекта" priority="0" />
+      <Param id="1" text="Редактирование объекта" priority="0" />
+      <Param id="2" text="Удаление объекта" priority="0" />
+      <Param id="3" text="Команда" priority="0" />
+      <Param id="4" text="Установлено соединение" priority="0" />
+      <Param id="5" text="Разрыв соединения" priority="0" />
+      <Param id="6" text="Обработка" priority="0" />
+      <Param id="7" text="Потеря активности" priority="327" />
+      <Param id="8" text="Восстановление активности" priority="10" />
+      <Param id="9" text="Авария TCP/IP" priority="328" />
+      <Param id="10" text="Восстановление TCP/IP" priority="10" />
+      <Param id="11" text="Неисправность канала" priority="325" />
+      <Param id="12" text="Восстановление канала" priority="10" />
+      <Param id="13" text="Возможное подавление объекта" priority="331" />
+      <Param id="14" text="Прекращение подавления объекта" priority="10" />
+      <Param id="15" text="Нарушение расписания объекта" priority="10" />
+      <Param id="16" text="Прекращение нарушения расписания" priority="10" />
+      <Param id="17" text="Подтверждение: НА ОХРАНЕ" priority="0" />
+      <Param id="18" text="Подтверждение: СНЯТ С ОХРАНЫ" priority="0" />
+      <Param id="19" text="Команда выполнена" priority="0" />
+      <Param id="20" text="Потеря связи с объектом" priority="324" />
+      <Param id="21" text="Восстановление связи с объектом" priority="10" />
+      <Param id="22" text="Тревога проходной зоны" priority="350" />
+      <Param id="23" text="Режим: На тех. обслуживании" priority="0" />
+      <Param id="24" text="Режим: Снят с тех. обслуживания" priority="0" />
+      <Param id="25" text="Нарушение расписания: Не на охране" priority="321" />
+      <Param id="26" text="Нарушение расписания: Не снят с охраны" priority="321" />
+      <Param id="27" text="Свободен" priority="0" />
+      <Param id="28" text="Неисправен" priority="0" />
+      <Param id="29" text="Запрос реагирования" priority="0" />
+      <Param id="30" text="Реагирование" priority="0" />
+      <Param id="31" text="Отказ реагирования" priority="0" />
+      <Param id="32" text="Обед" priority="0" />
+      <Param id="33" text="На объекте" priority="0" />
+      <Param id="34" text="Режим: Деактивирован" priority="0" />
+      <Param id="35" text="Режим: Активирован" priority="0" />
+      <Param id="36" text="Полный сброс" priority="0" />
+      <Param id="37" text="Постановка заблокирована" priority="0" />
+      <Param id="38" text="Постановка разблокирована" priority="0" />
+      <Param id="39" text="Оповещение" priority="0" />
+      <Param id="40" text="Тестирование КТС" priority="0" />
+      <Param id="41" text="Изменение: НА ОХРАНЕ" priority="0" />
+      <Param id="42" text="Изменение: СНЯТ С ОХРАНЫ" priority="0" />
+      <Param id="43" text="Подтвержденная тревога" priority="356" />
+      <Param id="44" text="Ложная тревога" priority="0" />
+      <Param id="45" text="Отмена реагирования" priority="0" />
+      <Param id="46" text="КТС не восстановлена после теста" priority="355" />
+      <Param id="47" text="Источник питания включен" priority="0" />
+      <Param id="48" text="Источник питания выключен" priority="0" />
+      <Param id="49" text="Реагирование завершено" priority="0" />
+    </Param>
+    <!-- События с объектов -->
+    <Param id="3" text="Информация с объектов" priority="500" >
+      <Param id="0" text="Системные параметры" priority="0" />
+      <Param id="1" text="Норма" priority="10" />
+      <Param id="2" text="Тревога" priority="50" />
+      <Param id="3" text="Тревога - Внимание" priority="26" />
+      <Param id="4" text="Тревога - Пожар" priority="55" />
+      <Param id="5" text="Тревога - Неисправность пожарного ШС" priority="54" />
+      <Param id="6" text="Неисправность ШС" priority="40" />
+      <Param id="7" text="RS485 - Норма" priority="10" />
+      <Param id="8" text="RS485 - Авария" priority="26" />
+      <Param id="9" text="АКБ - Норма" priority="10" />
+      <Param id="10" text="АКБ - Авария" priority="26" />
+      <Param id="11" text="220В - Норма" priority="10" />
+      <Param id="12" text="220В - Авария" priority="26" />
+      <Param id="13" text="Режим: НА ОХРАНЕ" priority="20" />
+      <Param id="14" text="Режим: СНЯТ С ОХРАНЫ" priority="20" />
+      <Param id="15" text="Тампер - Норма" priority="10" />
+      <Param id="16" text="Тампер - Авария" priority="26" />
+      <Param id="17" text="Рестарт устройства" priority="0" />
+      <Param id="18" text="Параметры устройства" priority="0" />
+      <Param id="19" text="Сообщение" priority="0" />
+      <Param id="20" text="Тест" priority="0" />
+      <Param id="21" text="Потеря активности" priority="60" />
+      <Param id="22" text="Опоздавшее событие" priority="0" />
+      <Param id="23" text="Выполнено обновление" priority="10" />
+      <Param id="24" text="Восстановление активности" priority="10" />
+      <Param id="25" text="Режим: СНЯТ С ОХРАНЫ(под принуждением)" priority="30" />
+      <Param id="26" text="СЛОТ - норма" priority="10" />
+      <Param id="27" text="СЛОТ - авария" priority="30" />
+      <Param id="28" text="Тревога, технол. ШС" priority="30" />
+      <Param id="29" text="Норма, после Внимание" priority="10" />
+      <Param id="30" text="Норма, после Пожар" priority="10" />
+      <Param id="31" text="Режим: НА ОХРАНЕ(под принуждением)" priority="29" />
+      <Param id="32" text="Прибытие ГБР" priority="10" />
+      <Param id="33" text="Тестовый пакет" priority="0" />
+      <Param id="34" text="Сервисный тест" priority="0" />
+      <Param id="35" text="Датчик - Тампер норма" priority="0" />
+      <Param id="36" text="Датчик - Тампер авария" priority="0" />
+      <Param id="37" text="Датчик - Основное питание норма" priority="0" />
+      <Param id="38" text="Датчик - Основное питание авария" priority="0" />
+      <Param id="39" text="Датчик - Резервное питание норма" priority="0" />
+      <Param id="40" text="Датчик - Резервное питание авария" priority="0" />
+      <Param id="41" text="Датчик - Потеря связи" priority="0" />
+      <Param id="42" text="Датчик - Восстановление связи" priority="0" />
+      <Param id="43" text="Датчик - Потеря связи (снят с охраны)" priority="0" />
+      <Param id="44" text="Датчик - Восстановление связи (снят с охраны)" priority="0" />
+      <Param id="45" text="Потеря телефонной линии" priority="0" />
+      <Param id="46" text="Восстановление телефонной линии" priority="0" />
+      <Param id="47" text="Потеря Ethernet линии" priority="0" />
+      <Param id="48" text="Восстановление Ethernet линии" priority="0" />
+      <Param id="49" text="Сбой флэш-памяти" priority="0" />
+      <Param id="50" text="Запрещенный электронный ключ" priority="0" />
+      <Param id="51" text="1-я сеть: нет регистрации" priority="0" />
+      <Param id="52" text="1-я сеть: есть регистрация" priority="0" />
+      <Param id="53" text="1-я сеть: нет регистрации (модем 2)" priority="0" />
+      <Param id="54" text="1-я сеть: есть регистрация (модем 2)" priority="0" />
+      <Param id="55" text="2-я сеть: нет регистрации" priority="0" />
+      <Param id="56" text="2-я сеть: есть регистрация" priority="0" />
+      <Param id="57" text="2-я сеть: нет регистрации (модем 2)" priority="0" />
+      <Param id="58" text="2-я сеть: есть регистрация (модем 2)" priority="0" />
+      <Param id="59" text="Неизвестный код доступа" priority="0" />
+      <Param id="60" text="Возможное подавление сотового канала связи" priority="0" />
+      <Param id="61" text="Восстановление канала после возможного подавления" priority="0" />
+      <Param id="62" text="Отключение питания" priority="0" />
+      <Param id="63" text="Подключена внешняя антенна" priority="0" />
+      <Param id="64" text="Подключена внутренняя антенна" priority="0" />
+      <Param id="65" text="Неисправность линии управления (короткое замыкание)" priority="0" />
+      <Param id="66" text="Неисправность линии управления (обрыв)" priority="0" />
+      <Param id="67" text="Линия управления в норме" priority="0" />
+      <Param id="68" text="Смена состояния скрытого выключателя" priority="0" />
+      <Param id="69" text="Задержанная тревога" priority="0" />
+      <Param id="70" text="Вход в режим локального конфигурирования" priority="0" />
+      <Param id="71" text="Выход из локального конфигурирования" priority="0" />
+      <Param id="72" text="Прибытие ГБР" priority="0" />
+      <Param id="73" text="220В - Авария РИП" priority="0" />
+      <Param id="74" text="220В - Норма РИП" priority="0" />
+      <Param id="75" text="Норма выходного напряжения БИРП" priority="0" />
+      <Param id="76" text="Авария выходного напряжения БИРП" priority="0" />
+      <Param id="77" text="Норма АКБ БИРП" priority="0" />
+      <Param id="78" text="Авария АКБ БИРП" priority="0" />
+      <Param id="79" text="Норма сети 220В БИРП" priority="0" />
+      <Param id="80" text="Авария сети 220В БИРП" priority="0" />
+      <Param id="81" text="Авария Контроль РИП" priority="0" />
+      <Param id="82" text="Норма Контроль РИП" priority="0" />
+      <Param id="83" text="Нет SIM-карт" priority="0" />
+      <Param id="84" text="Нет SIM-карт (модем 1)" priority="0" />
+      <Param id="85" text="Нет SIM-карт (модем 2)" priority="0" />
+      <Param id="86" text="Норма связи Астра" priority="0" />
+      <Param id="87" text="Авария связи Астра" priority="0" />
+      <Param id="88" text="Данные GPS" priority="0" />
+      <Param id="89" text="Данные GPS (Online)" priority="0" />
+      <Param id="90" text="Некорректные данные GPS" priority="0" />
+      <Param id="91" text="Тревога - Пожар 1" priority="55" />
+      <Param id="92" text="Тревога - Пожар 2" priority="55" />
+      <Param id="93" text="Норма, после Пожар 1" priority="10" />
+      <Param id="94" text="Норма, после Пожар 2" priority="10" />
+      <Param id="95" text="Датчик - Обновлено ПО" priority="0" />
+      <Param id="96" text="Тест, тревога КТС" priority="0" />
+      <Param id="97" text="Тест, норма КТС" priority="0" />
+      <Param id="98" text="Состояние датчика" priority="0" />
+      <Param id="99" text="Ошибка постановки на охрану" priority="0" />
+      <Param id="100" text="Есть SIM-карта" priority="0" />
+      <Param id="101" text="Состояние баланса SIM1" priority="0" />
+      <Param id="102" text="Состояние баланса SIM2" priority="0" />
+      <Param id="103" text="Баланс SIM1 ниже критического. Пополнить баланс" priority="26" />
+      <Param id="104" text="Баланс SIM2 ниже критического. Пополнить баланс" priority="26" />
+      <Param id="105" text="Баланс SIM1 в норме" priority="10" />
+      <Param id="106" text="Баланс SIM2 в норме" priority="10" />
+      <Param id="107" text="Прибытие техника" priority="10" />
+    </Param>
+    <!-- События телеметрии -->
+    <Param id="4" text="Телеметрия" priority="400">
+      <Param id="0" text="Включение входа" priority="0" />
+      <Param id="1" text="Выключение входа" priority="0" />
+      <Param id="2" text="Авария входа" priority="1" />
+      <Param id="3" text="Значение" priority="0" />
+      <Param id="4" text="Включение выхода" priority="0" />
+      <Param id="5" text="Выключение выхода" priority="0" />
+      <Param id="6" text="Авария выхода" priority="1" />
+    </Param>
+    <!-- События устройств ПЦН -->
+    <Param id="5" text="Устройства ПЦН" priority="300">
+      <Param id="0" text="Информация" priority="1" />
+      <Param id="1" text="Ошибка" priority="1" />
+    </Param>
+    <!-- События пользователей -->
+    <Param id="6" text="Пользователи" priority="150" >
+      <Param id="0" text="Открытие смены" priority="1" />
+      <Param id="1" text="Закрытие смены" priority="1" />
+      <Param id="2" text="Подключение к серверу" priority="1" />
+      <Param id="3" text="Отключение от сервера" priority="1" />
+    </Param>
+    <!-- События объектов на тех. обслуживании (напрямую не используются, но применяется ко всем событиям на объекте, у которого .maintenance == 1) -->
+    <Param id="7" text="Тех. обслуживание" priority="98" >
+      <Param id="0" text="Все события" priority="1" />
+    </Param>
+  </Template>
+</Root>

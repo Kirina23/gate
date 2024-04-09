@@ -1,0 +1,50 @@
+<?xml version="1.0"  encoding="windows-1251" standalone="no" ?>
+<Root>
+  <Sign>MirajDictionary</Sign>
+  <Version>1.0</Version>
+  <General>
+    <Typ>8</Typ>
+    <Name>Состояния шлейфов</Name>
+  </General>
+  <Template>
+    <Param id="0"  text="-----------" priority="-1" />
+    <Param id="1"  text="Снят, короткое замыкание" priority="-1" />
+    <Param id="2"  text="Снят, обрыв" priority="-1" />
+    <Param id="3"  text="Норма" priority="-1" />
+    <Param id="4"  text="Тревога" priority="3" />
+    <Param id="5"  text="Тревога, короткое замыкание" priority="3" />
+    <Param id="6"  text="Тревога, обрыв" priority="3" />
+    <Param id="7"  text="Тревога, готов к постановке" priority="3" />
+    <Param id="8"  text="Снят, готов к постановке" priority="-1" />
+    <Param id="9"  text="На охране, норма" priority="-1" />
+    <Param id="10" text="Неисправность пожарного ШС" priority="1" />
+    <Param id="11" text="Внимание пожарного ШС" priority="2" />
+    <Param id="12" text="Пожар" priority="4" />
+    <Param id="13" text="Неисправность ШС" priority="0" />
+    <Param id="14" text="Задержка постановки" priority="-1" />
+    <Param id="15" text="Снят с охраны" priority="-1" />
+    <Param id="16" text="Норма, технол. ШС" priority="-1" />
+    <Param id="17" text="Тревога, технол. ШС" priority="3" />
+    <Param id="18" text="Норма, после Внимание" priority="0" />
+    <Param id="19" text="Норма, после Пожар" priority="0" />
+    <Param id="20" text="Тревога проходной зоны" priority="2" />
+    <Param id="21" text="Тревога, тревожная кнопка" priority="3" />
+    <Param id="22" text="Норма, тревожная кнопка" priority="-1" />
+    <Param id="23" text="Тревога, утечка воды" priority="2" />
+    <Param id="24" text="Норма, утечка воды" priority="-1" />
+    <Param id="25" text="Тревога, утечка газа" priority="2" />
+    <Param id="26" text="Норма, утечка газа" priority="-1" />
+    <Param id="27" text="Тихая тревога, короткое замыкание" priority="3" />
+    <Param id="28" text="Тихая тревога, обрыв" priority="3" />
+    <Param id="29" text="Тихая тревога" priority="3" />
+    <Param id="30" text="Пожар 1" priority="4" />
+    <Param id="31" text="Пожар 2" priority="4" />
+    <Param id="32" text="Норма, после Пожар 1" priority="0" />
+    <Param id="33" text="Норма, после Пожар 2" priority="0" />
+    <Param id="34" text="Тихая тревога, тревожная кнопка" priority="3" />
+    <Param id="35" text="КТС не восстановлена после теста" priority="1" />
+    <Param id="36" text="Тревога, аварийный датчик" priority="2" />
+    <Param id="37" text="Норма, аварийный датчик" priority="-1" />
+  </Template>
+</Root>
+

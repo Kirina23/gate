@@ -1,0 +1,112 @@
+<?xml version="1.0"  encoding="windows-1251" standalone="no" ?>
+<Root>
+  <Sign>MirajAdapter</Sign>
+  <Version>1.0</Version>
+  <General>
+    <Typ>0</Typ>
+    <Name>GSM Модем (универсал)</Name>
+  </General>
+  <Template>
+    <list name="" Type="PL">
+      <listitem Type="C" Name="Category1">
+        <var name="Description">Настройки порта</var>
+      </listitem>
+      <listitem Type="L" Name="MdmType">
+        <var name="Description">Тип модема</var>
+        <var name="ListType">V</var>
+        <var name="Items">Maestro и др.;Мираж-GET-01;CINTERION BGS2T</var>
+        <var name="ItemValues">0;1;2</var>
+        <var name="Default">0</var>
+      </listitem>
+      <listitem Type="L" Name="Port">
+        <var name="Description">Порт</var>
+        <var name="ListType">S</var>
+        <var name="Items">COM1;COM2;COM3;COM4;COM5;COM6;COM7;COM8;COM9;COM10;COM11;COM12;COM13;COM14;COM15;COM16;COM17;COM18;COM19;COM20;COM21;COM22;COM23;COM24;COM25;COM26;COM27;COM28;COM29;COM30;COM31;COM32;COM33;COM34;COM35;COM36;COM37;COM38;COM39;COM40;COM41;COM42;COM43;COM44;COM45;COM46;COM47;COM48;COM49;COM50;COM51;COM52;COM53;COM54;COM55;COM56;COM57;COM58;COM59;COM60;COM61;COM62;COM63;COM64</var>
+        <var name="Default">COM1</var>
+      </listitem>
+      <listitem Type="L" Name="Speed">
+        <var name="Description">Скорость</var>
+        <var name="ListType">S</var>
+        <var name="Items">9600;19200;33600;57600;115200</var>
+        <var name="Default">115200</var>
+      </listitem>
+      <listitem Type="S" Name="MGSerial">
+        <var name="Description">Серийный номер устройства</var>
+        <var name="Default"></var>
+      </listitem>
+      <listitem Type="L" Name="MGPort">
+        <var name="Description">Номер модема в устройстве</var>
+        <var name="ListType">S</var>
+        <var name="Items">1;2;3</var>
+        <var name="Default">1</var>
+      </listitem>
+      <listitem Type="S" Name="Init2">
+        <var name="Description">Строка инициализации</var>
+        <var name="Default"></var>
+      </listitem>
+      <listitem Type="B" Name="MdmAuto">
+        <var name="Description">Выполнить автонастройку строки</var>
+        <var name="Default">0</var>
+      </listitem>
+      <listitem Type="B" Name="Log">
+        <var name="Description">Запись логов</var>
+        <var name="Default">0</var>
+      </listitem>
+      <listitem Type="C" Name="Category2">
+        <var name="Description">Дополнительно</var>
+      </listitem>
+      <listitem Type="L" Name="NetType">
+        <var name="Description">Назначение</var>
+        <var name="ListType">V</var>
+        <var name="Items">Основная сеть;Тестирование;Резервная сеть</var>
+        <var name="ItemValues">0;1;2</var>
+        <var name="Default">0</var>
+      </listitem>
+      <listitem Type="S" Name="Phone">
+        <var name="Description">Собственный номер</var>
+        <var name="Default"></var>
+      </listitem>
+      <listitem Type="L" Name="CallBreakType">
+        <var name="Description">Способ отбоя VOICE</var>
+        <var name="ListType">V</var>
+        <var name="Items">Отбой;Подъем-1сек.-Отбой</var>
+        <var name="ItemValues">0;1</var>
+        <var name="Default">0</var>
+      </listitem>
+      <listitem Type="B" Name="Restart">
+        <var name="Description">Рестарт модема при неактивности</var>
+        <var name="Default">0</var>
+      </listitem>
+      <listitem Type="C" Name="Category3">
+        <var name="Description">Контроль баланса</var>
+      </listitem>
+      <listitem Type="S" Name="BalanceReq">
+        <var name="Description">USSD запрос</var>
+        <var name="Default"></var>
+      </listitem>
+      <listitem Type="I" Name="BalanceLimit">
+        <var name="Description">Нижний порог баланса</var>
+        <var name="Default"></var>
+      </listitem>
+      <listitem Type="S" Name="BalanceAns">
+        <var name="Description">Префикс баланса (не обязательный)</var>
+        <var name="Default"></var>
+      </listitem>
+      <listitem Type="S" Name="BalanceAnsMinus">
+        <var name="Description">Формат минуса (не обязательный)</var>
+        <var name="Default"></var>
+      </listitem>
+      <listitem Type="C" Name="Category4">
+        <var name="Description">Контроль входящей активности</var>
+      </listitem>
+      <listitem Type="I" Name="IncomingSMSLimit">
+        <var name="Description">Предельное кол-во SMS (за 30 мин.)</var>
+        <var name="Default">0</var>
+      </listitem>
+      <listitem Type="I" Name="IncomingRingLimit">
+        <var name="Description">Предельное кол-во звонков (за 30 мин.)</var>
+        <var name="Default">0</var>
+      </listitem>
+    </list>
+  </Template>
+</Root>

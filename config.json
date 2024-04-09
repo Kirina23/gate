@@ -1,0 +1,37 @@
+{
+    "NAMESPACE": "Test",
+    "SYSTEM": "Tandem",
+    "GATEWAY_ID": "10",
+    "REGION": "94",
+    "MQTT_USERNAME": "test",
+    "MQTT_PASSWORD": "BsWIltLhkNmjQrcwo9",
+    "MQTT_SERVERS": [
+        {
+            "host": "emqx",
+            "port": "1883",
+            "protocol": "mqtt"
+        }
+    ],
+    "REDIS_HOST": "redis-gateway",
+    "REDIS_PORT": 6379,
+    "CONNECTION_PORT": 3020,
+    "CONNECTION_HOST": "10.10.10.51",
+    "RECONNECT_PERIOD": 1000,
+    "REQUEST_TIMEOUT": 45000,
+    "REQUEST_RETRY": 1000,
+    "REQUEST_ATTEMPTS": 3,
+    "SYSTEM_NUMBER": 1,
+    "DEFAULT_INTERVAL_MS": 7200000,
+    "POSTGRES_DB": "F:\\test\\NEWCENTR.GDB",
+    "POSTGRES_HOST": "firebird",
+    "POSTGRES_PORT": 3050,
+    "POSTGRES_USER": "SYSDBA",
+    "POSTGRES_PASSWORD": "masterkey",
+    "GATEWAY_STATUS_PERIOD": 60000,
+    "DEBUG": true,
+    "time": 1660900995761,
+    "QOS": 1,
+    "KRT": 120,
+    "RMO_ID": 15,
+    "UDP_PORT": 3020
+}

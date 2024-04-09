@@ -1,0 +1,28 @@
+<?xml version="1.0"  encoding="windows-1251" standalone="no" ?>
+<Root>
+  <Sign>MirajDictionary</Sign>
+  <Version>1.0</Version>
+  <General>
+    <Typ>14</Typ>
+    <Name>Типы объектов</Name>
+  </General>
+  <Template>
+    <Param id="0" text="Не определен" />
+    <Param id="1" text="Гараж" />
+    <Param id="2" text="Квартира" />
+    <Param id="3" text="Частный дом" />
+    <Param id="4" text="Магазин" />
+    <Param id="5" text="Аптека" />
+    <Param id="6" text="Салон" />
+    <Param id="7" text="Павильон" />
+    <Param id="8" text="Офисное помещение" />
+    <Param id="9" text="Производственное здание" />
+    <Param id="10" text="Кинотеатр" />
+    <Param id="11" text="Торговый центр" />
+    <Param id="12" text="Банкомат" />
+    <Param id="13" text="Станция тех. обслуживания" />
+    <Param id="14" text="Тревожная кнопка" />
+    <Param id="15" text="Мобильный" />
+    <Param id="16" text="УС" />
+  </Template>
+</Root>

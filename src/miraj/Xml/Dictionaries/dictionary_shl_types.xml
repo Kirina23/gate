@@ -1,0 +1,30 @@
+<?xml version="1.0"  encoding="windows-1251" standalone="no" ?>
+<Root>
+  <Sign>MirajDictionary</Sign>
+  <Version>1.0</Version>
+  <General>
+    <Typ>7</Typ>
+    <Name>Типы шлейфов</Name>
+  </General>
+  <Template>
+    <Param id="0"  text="Не задан" />
+    <Param id="1"  text="Периметр" />
+    <Param id="2"  text="Объемный" />
+    <Param id="3"  text="Пожарный дымовой" />
+    <Param id="4"  text="Тревожная кнопка" />
+    <Param id="5"  text="Технологический" />
+    <Param id="6"  text="Пожарный тепловой" />
+    <Param id="7"  text="Пожарный ручной" />
+    <Param id="8"  text="Входная зона" />
+    <Param id="9"  text="Штора" />
+    <Param id="10"  text="Разбитие стекла" />
+    <Param id="11"  text="Видеокамера" />
+    <Param id="12"  text="Видеокамера" />
+    <Param id="13"  text="Видеокамера" />
+    <Param id="14"  text="Видеокамера" />
+    <Param id="15"  text="Видеокамера" />
+    <Param id="16"  text="Видеокамера" />
+    <Param id="17"  text="Видеокамера" />
+    <Param id="18"  text="Видеокамера" />
+  </Template>
+</Root>

@@ -1,0 +1,34 @@
+<?xml version="1.0"  encoding="windows-1251" standalone="no" ?>
+<Root>
+    <Sign>MirajDevice</Sign>
+    <Version>1.0</Version>
+    <General>
+        <Typ>1037</Typ>
+        <Name>Мираж-GSM-M8-02</Name>
+    </General>
+    <Template>
+        <list name="" Type="PL">
+            <listitem Type="C" Name="Category1">
+                <var name="Description">Номера телефонов</var>
+            </listitem>
+            <listitem Type="S" Name="MainPhone">
+                <var name="Description">Основная сеть</var>
+                <var name="Default"></var>
+            </listitem>
+            <listitem Type="S" Name="ReservePhone">
+                <var name="Description">Резервная сеть</var>
+                <var name="Default"></var>
+            </listitem>
+            <listitem Type="C" Name="Category3">
+                <var name="Description">Перевзятие и обновление</var>
+            </listitem>
+            <listitem Type="L" Name="CommandType">
+                <var name="Description">Тип</var>
+                <var name="ListType">V</var>
+                <var name="Items">Дозвон;SMS</var>
+                <var name="ItemValues">0;1</var>
+                <var name="Default">0</var>
+            </listitem>
+        </list>
+    </Template>
+</Root>

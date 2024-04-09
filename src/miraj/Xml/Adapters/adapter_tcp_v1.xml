@@ -1,0 +1,47 @@
+<?xml version="1.0"  encoding="windows-1251" standalone="no" ?>
+<Root>
+  <Sign>MirajAdapter</Sign>
+  <Version>1.0</Version>
+  <General>
+    <Typ>1</Typ>
+    <Name>TCP/IP (универсал)</Name>
+  </General>
+  <Template>
+    <list name="" Type="PL">
+      <listitem Type="C" Name="Category1">
+        <var name="Description">Настройки сервера</var>
+      </listitem>
+      <listitem Type="I" Name="ServerPort">
+        <var name="Description">Порт</var>
+        <var name="Default">8000</var>
+      </listitem>
+      <listitem Type="C" Name="Category2" Visibility="false">
+        <var name="Description">Не используйте без надобности</var>
+      </listitem>
+      <listitem Type="S" Name="Interface" Visibility="false">
+        <var name="Description">IP-адрес интерфейса (не обязателен)</var>
+        <var name="Default"></var>
+      </listitem>
+      <listitem Type="B" Name="Metric" Visibility="false">
+        <var name="Description">Устанавливать метрику</var>
+        <var name="Default">0</var>
+      </listitem>
+      <listitem Type="B" Name="Log" Visibility="false">
+        <var name="Description">Запись логов</var>
+        <var name="Default">0</var>
+      </listitem>
+      <listitem Type="I" Name="SThreads" Visibility="false">
+        <var name="Description">Кол-во потоков (4)</var>
+        <var name="Default">4</var>
+      </listitem>
+      <listitem Type="I" Name="SFreeBuf" Visibility="false">
+        <var name="Description">Макс. свободных буферов (10)</var>
+        <var name="Default">10</var>
+      </listitem>
+      <listitem Type="I" Name="SBufSize" Visibility="false">
+        <var name="Description">Размер одного буфера (8192)</var>
+        <var name="Default">8192</var>
+      </listitem>
+    </list>
+  </Template>
+</Root>
