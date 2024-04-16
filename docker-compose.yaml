@@ -19,21 +19,22 @@ services:
         max-size: "100m"
         max-file: "3"
 
-  emqx:
-    image: "emqx/emqx:4.3.22"
-    container_name: "emqx"
-    restart: always
-    ports:
-      - "4369-4370:4369-4370"
-      - "5369-5370:5369-5370"
-      - "6369-6370:6369-6370"
-      - "18083:18083"
-      - "18080:8080"
-      - "1883:1883"
-      - "8883:8883"
-      - "18081:8081"
-      - "8083:8083"
-    hostname: "emqx"
+  # emqx:
+   # image: "emqx/emqx:4.3.22"
+    #container_name: "emqx"
+    #restart: always
+    #ports:
+     # - "4369-4370:4369-4370"
+      #- "5369-5370:5369-5370"
+      #- "6369-6370:6369-6370"
+      #- "18083:18083"
+      #- "18082:8080"
+      #- "1883:1883"
+      #- "8883:8883"
+      #- "18081:8081"
+      #- "8083:8083"
+    #hostname: "emqx"
+
     # environment:
     #   - EMQX_NAME=asbrok
     #   - EMQX_HOST=broker0.asbrok.kz
@@ -62,23 +63,24 @@ services:
     #   - ./emqx/log:/opt/emqx/log
     #   - ./emqx/ssl:/opt/emqx/ssl
 
-  redis-gateway:
-    image: redis:alpine
-    command: ["redis-server"]
-    hostname: redis-gateway
-    restart: always
-    container_name: "redis-gateway"
-    environment:
-      - TZ=Asia/Almaty
+  #redis-gateway:
+    #image: redis:alpine
+    #command: ["redis-server"]
+    #hostname: redis-gateway
+    #restart: always
+    #container_name: "redis-gateway"
+    #environment:
+     # - TZ=Asia/Almaty
+
     # ports:
     #   - "6379:6379"
-    volumes:
-      - ./redis:/data
-    healthcheck:
-      test: ["CMD", "redis-cli", "ping"]
-      interval: 1s
-      timeout: 3s
-      retries: 30
+    #volumes:
+      #- ./redis:/data
+    #healthcheck:
+      #test: ["CMD", "redis-cli", "ping"]
+      #interval: 1s
+      #timeout: 3s
+      #retries: 30
 
   firebird:
     image: "jacobalberty/firebird:2.5-ss"
@@ -88,3 +90,5 @@ services:
       - "3050:3050"
     volumes:
       - ./firebird/:/c/database/
+    environment:
+      - ISC_PASSWORD=masterkey
