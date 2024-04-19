@@ -22,6 +22,13 @@
     "REQUEST_ATTEMPTS": 3,
     "SYSTEM_NUMBER": 1,
     "DEFAULT_INTERVAL_MS": 7200000,
+    "POSTGRES_DB": "db-saturn",
+    "POSTGRES_HOST": "dev.ity.kz",
+    "POSTGRES_PORT": 5432,
+    "POSTGRES_USER": "user",
+    "POSTGRES_PASSWORD": "pass",
+    "UDP_PORT": 3020,
+    "DB_LOG_PATH": "F:\\test\\A1.GDB",
     "FIREBIRD_DB": "/c/database/BASEMCM.GDB",
     "FIREBIRD_HOST": "firebird",
     "FIREBIRD_PORT": 3050,
@@ -29,9 +36,8 @@
     "FIREBIRD_PASSWORD": "masterkey",
     "GATEWAY_STATUS_PERIOD": 60000,
     "DEBUG": true,
-    "time": 1660900995761,
+    "time": 1713413090848,
     "QOS": 1,
     "KRT": 120,
-    "RMO_ID": 15,
-    "UDP_PORT": 3020
+    "RMO_ID": 15
 }
